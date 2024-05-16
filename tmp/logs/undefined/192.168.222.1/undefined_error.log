@@ -1,0 +1,208 @@
+[2024-04-20 16:01:48.832 -ERROR] c.a.n.client.config.impl.ClientWorker    :[fixed-127.0.0.1_8848] [sub-server-error]  dataId=null.properties, group=DEFAULT_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='unknown user!', requestId='null'}
+[2024-04-20 16:01:48.834 -ERROR] c.a.c.n.c.NacosPropertySourceBuilder     :get data from Nacos error,dataId:null.properties 
+com.alibaba.nacos.api.exception.NacosException: http error, code=403,msg=unknown user!,dataId=null.properties,group=DEFAULT_GROUP,tenant=
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.queryConfig(ClientWorker.java:985)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.getServerConfig(ClientWorker.java:402)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:184)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:96)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:73)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:199)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:186)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadApplicationConfiguration(NacosPropertySourceLocator.java:144)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:103)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:50)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:46)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:95)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:605)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:385)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:01:48.981 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.981 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.981 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.982 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.982 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.982 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.983 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:48.983 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:01:49.116 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-04-20 16:01:49.830 -ERROR] o.s.boot.SpringApplication               :Application run failed
+java.lang.IllegalStateException: No application config found or it's not a valid config! Please add <dubbo:application name="..." /> to your spring config.
+	at org.apache.dubbo.config.utils.ConfigValidationUtils.validateApplicationConfig(ConfigValidationUtils.java:471)
+	at org.apache.dubbo.config.utils.DefaultConfigValidator.validate(DefaultConfigValidator.java:47)
+	at org.apache.dubbo.config.context.AbstractConfigManager.checkDefaultAndValidateConfigs(AbstractConfigManager.java:588)
+	at org.apache.dubbo.config.context.ConfigManager.checkConfigs(ConfigManager.java:280)
+	at org.apache.dubbo.config.context.ConfigManager.loadConfigs(ConfigManager.java:261)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.loadApplicationConfigs(DefaultApplicationDeployer.java:239)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:204)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:479)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:73)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:37)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:880)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:581)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:02:27.617 -ERROR] c.a.n.client.config.impl.ClientWorker    :[fixed-127.0.0.1_8848] [sub-server-error]  dataId=null.properties, group=DEFAULT_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='unknown user!', requestId='null'}
+[2024-04-20 16:02:27.617 -ERROR] c.a.c.n.c.NacosPropertySourceBuilder     :get data from Nacos error,dataId:null.properties 
+com.alibaba.nacos.api.exception.NacosException: http error, code=403,msg=unknown user!,dataId=null.properties,group=DEFAULT_GROUP,tenant=
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.queryConfig(ClientWorker.java:985)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.getServerConfig(ClientWorker.java:402)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:184)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:96)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:73)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:199)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:186)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadApplicationConfiguration(NacosPropertySourceLocator.java:144)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:103)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:50)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:46)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:95)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:605)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:385)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:02:27.731 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.731 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.731 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.732 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.732 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.732 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.732 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.733 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:27.868 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-04-20 16:02:28.425 -ERROR] o.s.boot.SpringApplication               :Application run failed
+java.lang.IllegalStateException: No application config found or it's not a valid config! Please add <dubbo:application name="..." /> to your spring config.
+	at org.apache.dubbo.config.utils.ConfigValidationUtils.validateApplicationConfig(ConfigValidationUtils.java:471)
+	at org.apache.dubbo.config.utils.DefaultConfigValidator.validate(DefaultConfigValidator.java:47)
+	at org.apache.dubbo.config.context.AbstractConfigManager.checkDefaultAndValidateConfigs(AbstractConfigManager.java:588)
+	at org.apache.dubbo.config.context.ConfigManager.checkConfigs(ConfigManager.java:280)
+	at org.apache.dubbo.config.context.ConfigManager.loadConfigs(ConfigManager.java:261)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.loadApplicationConfigs(DefaultApplicationDeployer.java:239)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:204)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:479)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:73)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:37)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:880)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:581)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:02:59.526 -ERROR] c.a.n.client.config.impl.ClientWorker    :[fixed-127.0.0.1_8848] [sub-server-error]  dataId=null.properties, group=DEFAULT_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='unknown user!', requestId='null'}
+[2024-04-20 16:02:59.527 -ERROR] c.a.c.n.c.NacosPropertySourceBuilder     :get data from Nacos error,dataId:null.properties 
+com.alibaba.nacos.api.exception.NacosException: http error, code=403,msg=unknown user!,dataId=null.properties,group=DEFAULT_GROUP,tenant=
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.queryConfig(ClientWorker.java:985)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.getServerConfig(ClientWorker.java:402)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:184)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:96)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:73)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:199)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:186)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadApplicationConfiguration(NacosPropertySourceLocator.java:144)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:103)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:50)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:46)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:95)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:605)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:385)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:02:59.663 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.663 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.664 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.664 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.664 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.665 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.665 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.665 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:02:59.828 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-04-20 16:03:00.470 -ERROR] o.s.boot.SpringApplication               :Application run failed
+java.lang.IllegalStateException: No application config found or it's not a valid config! Please add <dubbo:application name="..." /> to your spring config.
+	at org.apache.dubbo.config.utils.ConfigValidationUtils.validateApplicationConfig(ConfigValidationUtils.java:471)
+	at org.apache.dubbo.config.utils.DefaultConfigValidator.validate(DefaultConfigValidator.java:47)
+	at org.apache.dubbo.config.context.AbstractConfigManager.checkDefaultAndValidateConfigs(AbstractConfigManager.java:588)
+	at org.apache.dubbo.config.context.ConfigManager.checkConfigs(ConfigManager.java:280)
+	at org.apache.dubbo.config.context.ConfigManager.loadConfigs(ConfigManager.java:261)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.loadApplicationConfigs(DefaultApplicationDeployer.java:239)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:204)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:479)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:73)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:37)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:880)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:581)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:04:24.625 -ERROR] c.a.n.client.config.impl.ClientWorker    :[fixed-127.0.0.1_8848] [sub-server-error]  dataId=null.properties, group=DEFAULT_GROUP, tenant=, code=Response{resultCode=500, errorCode=403, message='unknown user!', requestId='null'}
+[2024-04-20 16:04:24.625 -ERROR] c.a.c.n.c.NacosPropertySourceBuilder     :get data from Nacos error,dataId:null.properties 
+com.alibaba.nacos.api.exception.NacosException: http error, code=403,msg=unknown user!,dataId=null.properties,group=DEFAULT_GROUP,tenant=
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.queryConfig(ClientWorker.java:985)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.getServerConfig(ClientWorker.java:402)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:184)
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:96)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:73)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:199)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:186)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadApplicationConfiguration(NacosPropertySourceLocator.java:144)
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:103)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:50)
+	at org.springframework.cloud.bootstrap.config.PropertySourceLocator.locateCollection(PropertySourceLocator.java:46)
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:95)
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:605)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:385)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)
+[2024-04-20 16:04:24.761 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.762 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.762 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.763 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.763 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.763 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.763 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.764 -ERROR] o.i.l.l.f.r.s.key.RedisKeyLoadMatch      :没有匹配到应用名称，所以无法加载任何RedisKeyBuilder对象
+[2024-04-20 16:04:24.941 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-04-20 16:04:25.597 -ERROR] o.s.boot.SpringApplication               :Application run failed
+java.lang.IllegalStateException: No application config found or it's not a valid config! Please add <dubbo:application name="..." /> to your spring config.
+	at org.apache.dubbo.config.utils.ConfigValidationUtils.validateApplicationConfig(ConfigValidationUtils.java:471)
+	at org.apache.dubbo.config.utils.DefaultConfigValidator.validate(DefaultConfigValidator.java:47)
+	at org.apache.dubbo.config.context.AbstractConfigManager.checkDefaultAndValidateConfigs(AbstractConfigManager.java:588)
+	at org.apache.dubbo.config.context.ConfigManager.checkConfigs(ConfigManager.java:280)
+	at org.apache.dubbo.config.context.ConfigManager.loadConfigs(ConfigManager.java:261)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.loadApplicationConfigs(DefaultApplicationDeployer.java:239)
+	at org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:204)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.prepare(DefaultModuleDeployer.java:479)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.initDubboConfigBeans(DubboConfigApplicationListener.java:73)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:59)
+	at org.apache.dubbo.config.spring.context.DubboConfigApplicationListener.onApplicationEvent(DubboConfigApplicationListener.java:37)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:880)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:581)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.account.provider.AccountProviderApplication.main(AccountProviderApplication.java:22)

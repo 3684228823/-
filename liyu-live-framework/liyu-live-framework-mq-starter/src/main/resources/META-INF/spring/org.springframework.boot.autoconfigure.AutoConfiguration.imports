@@ -1,0 +1,3 @@
+org.liyu.live.framework.mq.starter.properties.RocketMQConsumerProperties
+org.liyu.live.framework.mq.starter.properties.RocketMQProducerProperties
+org.liyu.live.framework.mq.starter.producer.RocketMQProducerConfig

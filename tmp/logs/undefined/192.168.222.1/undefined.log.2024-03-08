@@ -1,0 +1,836 @@
+[2024-03-08 21:49:48.408 - INFO] d.s.b.c.e.WelcomeLogoApplicationListener : [DUBBO] 
+
+ :: Dubbo (v3.2.0-beta.3) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:48.409 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:49:48.411 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:49:48.503 - INFO] c.a.c.n.c.NacosConfigDataLoader          :[Nacos Config] Load config[dataId=liyu-live-api.yaml, group=DEFAULT_GROUP] success
+[2024-03-08 21:49:48.848 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:49:48.848 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:49:48.866 - WARN] c.a.c.n.c.NacosPropertySourceBuilder     :Ignore the empty nacos configuration and get it based on dataId[null.yaml] & group[DEFAULT_GROUP]
+[2024-03-08 21:49:48.866 - INFO] b.c.PropertySourceBootstrapConfiguration :Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.yaml,DEFAULT_GROUP'}]
+[2024-03-08 21:49:48.871 - INFO] org.liyu.live.api.ApiWebApplication      :No active profile set, falling back to 1 default profile: "default"
+[2024-03-08 21:49:48.885 - INFO] c.a.c.n.c.NacosConfigDataLoader          :[Nacos Config] Load config[dataId=liyu-live-api.yaml, group=DEFAULT_GROUP] success
+[2024-03-08 21:49:49.210 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default framework from null to Dubbo Framework[1], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.210 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.223 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.248 - INFO] o.a.dubbo.rpc.model.ApplicationModel     : [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.250 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.281 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.281 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.345 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default application from null to Dubbo Application[1.1](unknown), dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.345 - INFO] o.a.dubbo.rpc.model.ApplicationModel     : [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.345 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.352 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.352 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.365 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.365 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.372 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.375 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.376 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@6fc0bbc6, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.575 - INFO] o.s.cloud.context.scope.GenericScope     :BeanFactory id=b6404d2d-cdcd-36d1-b606-1ed157c4d135
+[2024-03-08 21:49:49.610 - INFO] f.a.ReferenceAnnotationBeanPostProcessor : [DUBBO] Register dubbo reference bean: userRpc = ReferenceBean:org.liyu.live.user.interfaces.IUserRpc() at private org.liyu.live.user.interfaces.IUserRpc org.liyu.live.api.controller.UserController.userRpc, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.746 - INFO] f.a.ReferenceAnnotationBeanPostProcessor : [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:49.935 - INFO] o.s.b.w.embedded.tomcat.TomcatWebServer  :Tomcat initialized with port(s): 8080 (http)
+[2024-03-08 21:49:49.944 - INFO] o.a.coyote.http11.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8080"]
+[2024-03-08 21:49:49.945 - INFO] o.apache.catalina.core.StandardService   :Starting service [Tomcat]
+[2024-03-08 21:49:49.945 - INFO] o.apache.catalina.core.StandardEngine    :Starting Servlet engine: [Apache Tomcat/10.1.5]
+[2024-03-08 21:49:50.005 - INFO] o.a.c.c.C.[.[localhost].[/live/api]      :Initializing Spring embedded WebApplicationContext
+[2024-03-08 21:49:50.006 - INFO] w.s.c.ServletWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1119 ms
+[2024-03-08 21:49:50.069 - INFO] o.a.d.c.s.c.DubboConfigBeanInitializer   : [DUBBO] loading dubbo config beans ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.071 - INFO] o.a.d.c.s.c.DubboConfigBeanInitializer   : [DUBBO] dubbo config beans are loaded., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.126 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] No value is configured in the registry, the DynamicConfigurationFactory extension[name : nacos] supports as the config center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.127 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] The registry[<dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />] will be used as the config center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.133 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] use registry as config-center: <dubbo:config-center highestPriority="false" id="config-center-nacos-192.168.222.1-8848" address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="{namespace=liyu-live-test, client=null, password=liyu, username=liyu}" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.147 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:49:50.148 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:49:50.149 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$344/0x000001db8125a7c8
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$345/0x000001db8125abe8
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+[2024-03-08 21:49:50.215 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:49:50.342 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709905790221_192.168.222.1_59668
+[2024-03-08 21:49:50.342 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:49:50.343 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001db8137a740
+[2024-03-08 21:49:50.343 - INFO] com.alibaba.nacos.common.remote.client   :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Notify connected event to listeners.
+[2024-03-08 21:49:50.343 - INFO] c.a.n.client.config.impl.ClientWorker    :[070e4009-cf93-44d2-b7db-5e3fecf23b0f_config-0] Connected,notify listen context...
+[2024-03-08 21:49:50.352 - WARN] o.a.d.common.config.ConfigurationUtils   : [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+[2024-03-08 21:49:50.352 - WARN] o.a.d.common.config.ConfigurationUtils   : [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+[2024-03-08 21:49:50.366 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.367 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:application enableFileCache="true" executorManagementMode="default" parameters="{}" name="liyu-live-api" qosEnable="false" protocol="dubbo" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.367 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:protocol preferSerialization="fastjson2,hessian2" name="dubbo" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.367 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.367 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:ssl />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.388 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.392 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.401 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.402 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] The registry[<dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />] will be used as the metadata center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.405 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="{password=liyu, namespace=liyu-live-test, client=null, username=liyu}" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.477 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:49:50.478 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:49:50.478 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:49:50.541 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:50.600 - INFO] o.a.d.c.s.reference.ReferenceCreator     : [DUBBO] The configBean[type:ReferenceConfig<org.liyu.live.user.interfaces.IUserRpc>] has been built., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.042 - INFO] o.a.coyote.http11.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8080"]
+[2024-03-08 21:49:51.054 - INFO] o.s.b.w.embedded.tomcat.TomcatWebServer  :Tomcat started on port(s): 8080 (http) with context path '/live/api'
+[2024-03-08 21:49:51.054 - WARN] c.a.c.n.registry.NacosServiceRegistry    :No service to register for nacos client...
+[2024-03-08 21:49:51.136 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.137 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.137 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.137 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] has started., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.164 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.181 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:49:51.182 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property : null
+[2024-03-08 21:49:51.182 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Environment :null
+[2024-03-08 21:49:51.182 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property :liyu-live-test
+[2024-03-08 21:49:51.234 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:49:51.234 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:49:51.303 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 3162c238-a4de-4b6c-9a79-0012ec103472
+[2024-03-08 21:49:51.305 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+[2024-03-08 21:49:51.305 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+[2024-03-08 21:49:51.305 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+[2024-03-08 21:49:51.306 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:49:51.423 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709905791313_192.168.222.1_59669
+[2024-03-08 21:49:51.423 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:49:51.423 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Notify connected event to listeners.
+[2024-03-08 21:49:51.423 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001db8137a740
+[2024-03-08 21:49:51.423 - INFO] com.alibaba.nacos.client.naming          :Grpc connection connect
+[2024-03-08 21:49:51.439 - INFO] o.a.d.r.c.m.MigrationRuleListener        : [DUBBO] Listening for migration rules on dataId liyu-live-api.migration, group DUBBO_SERVICEDISCOVERY_MIGRATION, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.442 - INFO] c.a.nacos.client.config.impl.CacheData   :nacos.cache.data.init.snapshot = true 
+[2024-03-08 21:49:51.443 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.migration+DUBBO_SERVICEDISCOVERY_MIGRATION+liyu-live-test
+[2024-03-08 21:49:51.449 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+[2024-03-08 21:49:51.493 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.configurators+dubbo+liyu-live-test
+[2024-03-08 21:49:51.493 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.configurators, group=dubbo, cnt=1
+[2024-03-08 21:49:51.500 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Please set 'dubbo.registry.parameters.register-consumer-url=true' to turn on consumer url registration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.516 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc::.condition-router+dubbo+liyu-live-test
+[2024-03-08 21:49:51.516 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc::.condition-router, group=dubbo, cnt=1
+[2024-03-08 21:49:51.526 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.condition-router+dubbo+liyu-live-test
+[2024-03-08 21:49:51.527 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.condition-router, group=dubbo, cnt=1
+[2024-03-08 21:49:51.536 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Subscribe: consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=3828&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709905791148&unloadClusterRelated=false, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.539 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc::, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:49:51.555 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=3828&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709905791148&unloadClusterRelated=false, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.567 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.946 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59670 -> /10.96.54.43:9090 is established., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.950 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Successfully connect to server /10.96.54.43:9090 from NettyClient 10.96.54.43 using dubbo version 3.2.0-beta.3, channel is NettyChannel [channel=[id: 0xebe54dfb, L:/10.96.54.43:59670 - R:/10.96.54.43:9090]], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.951 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Start NettyClient /10.96.54.43 connect to the server /10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.976 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-user-provider.MESHAPPRULE+dubbo+liyu-live-test
+[2024-03-08 21:49:51.976 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-user-provider.MESHAPPRULE, group=dubbo, cnt=1
+[2024-03-08 21:49:51.977 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-user-provider.tag-router+dubbo+liyu-live-test
+[2024-03-08 21:49:51.977 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-user-provider.tag-router, group=dubbo, cnt=1
+[2024-03-08 21:49:51.988 - INFO] o.a.d.r.integration.RegistryDirectory    : [DUBBO] Received invokers changed event from registry. Registry type: interface. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:51.989 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:49:51.993 - INFO] com.alibaba.nacos.client.naming          :init new ips(0) service: DEFAULT_GROUP@@providers:org.liyu.live.user.interfaces.IUserRpc -> []
+[2024-03-08 21:49:51.993 - INFO] com.alibaba.nacos.client.naming          :current ips:(0) service: DEFAULT_GROUP@@providers:org.liyu.live.user.interfaces.IUserRpc -> []
+[2024-03-08 21:49:51.994 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=3828&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709905791148&unloadClusterRelated=false, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.000 - INFO] o.a.d.r.integration.RegistryDirectory    : [DUBBO] Received invokers changed event from registry. Registry type: interface. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.003 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc::, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:49:52.003 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:49:52.004 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc::.configurators+dubbo+liyu-live-test
+[2024-03-08 21:49:52.004 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc::.configurators, group=dubbo, cnt=1
+[2024-03-08 21:49:52.038 - INFO] o.a.d.r.c.m.store.MetaCacheManager       : [DUBBO] Successfully loaded meta cache from file .metadata.liyu-live-api.nacos.192.168.222.1:8848, entries 0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.039 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:49:52.039 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property : null
+[2024-03-08 21:49:52.039 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Environment :null
+[2024-03-08 21:49:52.040 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property :liyu-live-test
+[2024-03-08 21:49:52.050 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:49:52.051 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:49:52.100 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Receive server push request, request = NotifySubscriberRequest, requestId = 407
+[2024-03-08 21:49:52.101 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Ack server push request, request = NotifySubscriberRequest, requestId = 407
+[2024-03-08 21:49:52.114 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 3ddd4529-b87e-44af-b0f5-d716066f0169
+[2024-03-08 21:49:52.114 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+[2024-03-08 21:49:52.114 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+[2024-03-08 21:49:52.114 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+[2024-03-08 21:49:52.115 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:49:52.228 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709905792119_192.168.222.1_59671
+[2024-03-08 21:49:52.228 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:49:52.228 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001db8137a740
+[2024-03-08 21:49:52.228 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Notify connected event to listeners.
+[2024-03-08 21:49:52.228 - INFO] com.alibaba.nacos.client.naming          :Grpc connection connect
+[2024-03-08 21:49:52.239 - INFO] o.a.dubbo.metadata.MappingCacheManager   : [DUBBO] Successfully loaded mapping cache from file .mapping.liyu-live-api, entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.342 - INFO] o.a.d.r.client.ServiceDiscoveryRegistry  : [DUBBO] Trying to subscribe from apps liyu-live-user-provider for service key org.liyu.live.user.interfaces.IUserRpc, , dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.347 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Received instance notification, serviceName: liyu-live-user-provider, instances: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.351 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc+mapping+liyu-live-test
+[2024-03-08 21:49:52.351 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc, group=mapping, cnt=1
+[2024-03-08 21:49:52.351 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of cbcce374-f727-4f53-afea-e0f70cba60dc_config-0
+[2024-03-08 21:49:52.351 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$344/0x000001db8125a7c8
+[2024-03-08 21:49:52.351 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$345/0x000001db8125abe8
+[2024-03-08 21:49:52.351 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+[2024-03-08 21:49:52.351 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+[2024-03-08 21:49:52.352 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:49:52.354 - INFO] org.apache.dubbo.rpc.model.ModuleModel   : [DUBBO] Dynamically registering consumer model liyu-live-user-provider/org.apache.dubbo.metadata.MetadataService:1.0.0 into model Dubbo Module[1.1.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.463 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709905792356_192.168.222.1_59672
+[2024-03-08 21:49:52.463 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:49:52.463 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001db8137a740
+[2024-03-08 21:49:52.463 - INFO] com.alibaba.nacos.common.remote.client   :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Notify connected event to listeners.
+[2024-03-08 21:49:52.463 - INFO] c.a.n.client.config.impl.ClientWorker    :[cbcce374-f727-4f53-afea-e0f70cba60dc_config-0] Connected,notify listen context...
+[2024-03-08 21:49:52.472 - INFO] DiscoveryRegistry$DefaultMappingListener : [DUBBO] Received mapping notification from meta server, {serviceKey: org.liyu.live.user.interfaces.IUserRpc, apps: [liyu-live-user-provider]}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:52.524 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Receive server push request, request = NotifySubscriberRequest, requestId = 408
+[2024-03-08 21:49:52.524 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Ack server push request, request = NotifySubscriberRequest, requestId = 408
+[2024-03-08 21:49:54.386 -ERROR] o.a.d.r.transport.netty4.NettyClient     : [DUBBO] Failed to connect to provider server by other reason., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 6-1. This may be caused by network disconnected, go to https://dubbo.apache.org/faq/6/1 to find instructions. 
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:49:54.399 -ERROR] o.a.d.r.client.metadata.MetadataUtils    : [DUBBO] Failed to get app metadata for revision ab1821c8df99581bcc322aa8dd4192ac for type local from instance 10.96.54.43:9091, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-39. This may be caused by , go to https://dubbo.apache.org/faq/1/39 to find instructions. 
+org.apache.dubbo.rpc.RpcException: Fail to create remoting client for service(dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0): client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:613)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:437)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.protocolBindingRefer(DubboProtocol.java:410)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:401)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:77)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:74)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.referProxy(MetadataUtils.java:144)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.getRemoteMetadata(MetadataUtils.java:172)
+	at org.apache.dubbo.registry.client.AbstractServiceDiscovery.getRemoteMetadata(AbstractServiceDiscovery.java:180)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.lambda$doOnEvent$2(ServiceInstancesChangedListener.java:159)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.doOnEvent(ServiceInstancesChangedListener.java:159)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.onEvent(ServiceInstancesChangedListener.java:113)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribeURLs(ServiceDiscoveryRegistry.java:320)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.doSubscribe(ServiceDiscoveryRegistry.java:224)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribe(ServiceDiscoveryRegistry.java:185)
+	at org.apache.dubbo.registry.ListenerRegistryWrapper.subscribe(ListenerRegistryWrapper.java:88)
+	at org.apache.dubbo.registry.integration.DynamicDirectory.subscribe(DynamicDirectory.java:183)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.subscribe(ServiceDiscoveryRegistryDirectory.java:127)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doCreateInvoker(RegistryProtocol.java:570)
+	at org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol.getServiceDiscoveryInvoker(InterfaceCompatibleRegistryProtocol.java:65)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.refreshServiceDiscoveryInvoker(MigrationInvoker.java:437)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.migrateToApplicationFirstInvoker(MigrationInvoker.java:245)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.refreshInvoker(MigrationRuleHandler.java:76)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.doMigrate(MigrationRuleHandler.java:60)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleListener.onRefer(MigrationRuleListener.java:247)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.interceptInvoker(RegistryProtocol.java:535)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doRefer(RegistryProtocol.java:505)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:487)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:74)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:71)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.config.ReferenceConfig.createInvokerForRemote(ReferenceConfig.java:605)
+	at org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:439)
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:297)
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:231)
+	at org.apache.dubbo.config.utils.SimpleReferenceCache.get(SimpleReferenceCache.java:131)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.lambda$referServices$6(DefaultModuleDeployer.java:396)
+	at java.base/java.util.concurrent.ConcurrentHashMap$ValuesView.forEach(ConcurrentHashMap.java:4780)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.referServices(DefaultModuleDeployer.java:376)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:167)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:139)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:113)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:102)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.api.ApiWebApplication.main(ApiWebApplication.java:20)
+Caused by: org.apache.dubbo.remoting.RemotingException: client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:224)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:171)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:219)
+	at org.apache.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:77)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.<init>(NettyClient.java:94)
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.connect(NettyTransporter.java:40)
+	at org.apache.dubbo.remoting.Transporter$Adaptive.connect(Transporter$Adaptive.java)
+	at org.apache.dubbo.remoting.Transporters.connect(Transporters.java:74)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:42)
+	at org.apache.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:107)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:611)
+	... 61 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:49:55.414 - INFO] org.apache.dubbo.rpc.model.ModuleModel   : [DUBBO] Dynamically registering consumer model liyu-live-user-provider/org.apache.dubbo.metadata.MetadataService:1.0.0 into model Dubbo Module[1.1.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:49:57.445 -ERROR] o.a.d.r.transport.netty4.NettyClient     : [DUBBO] Failed to connect to provider server by other reason., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 6-1. This may be caused by network disconnected, go to https://dubbo.apache.org/faq/6/1 to find instructions. 
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:49:57.445 -ERROR] o.a.d.r.client.metadata.MetadataUtils    : [DUBBO] Failed to get app metadata for revision ab1821c8df99581bcc322aa8dd4192ac for type local from instance 10.96.54.43:9091, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-39. This may be caused by , go to https://dubbo.apache.org/faq/1/39 to find instructions. 
+org.apache.dubbo.rpc.RpcException: Fail to create remoting client for service(dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0): client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:613)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:437)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.protocolBindingRefer(DubboProtocol.java:410)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:401)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:77)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:74)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.referProxy(MetadataUtils.java:144)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.getRemoteMetadata(MetadataUtils.java:172)
+	at org.apache.dubbo.registry.client.AbstractServiceDiscovery.getRemoteMetadata(AbstractServiceDiscovery.java:180)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.lambda$doOnEvent$2(ServiceInstancesChangedListener.java:159)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.doOnEvent(ServiceInstancesChangedListener.java:159)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.onEvent(ServiceInstancesChangedListener.java:113)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribeURLs(ServiceDiscoveryRegistry.java:320)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.doSubscribe(ServiceDiscoveryRegistry.java:224)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribe(ServiceDiscoveryRegistry.java:185)
+	at org.apache.dubbo.registry.ListenerRegistryWrapper.subscribe(ListenerRegistryWrapper.java:88)
+	at org.apache.dubbo.registry.integration.DynamicDirectory.subscribe(DynamicDirectory.java:183)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.subscribe(ServiceDiscoveryRegistryDirectory.java:127)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doCreateInvoker(RegistryProtocol.java:570)
+	at org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol.getServiceDiscoveryInvoker(InterfaceCompatibleRegistryProtocol.java:65)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.refreshServiceDiscoveryInvoker(MigrationInvoker.java:437)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.migrateToApplicationFirstInvoker(MigrationInvoker.java:245)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.refreshInvoker(MigrationRuleHandler.java:76)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.doMigrate(MigrationRuleHandler.java:60)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleListener.onRefer(MigrationRuleListener.java:247)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.interceptInvoker(RegistryProtocol.java:535)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doRefer(RegistryProtocol.java:505)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:487)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:74)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:71)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.config.ReferenceConfig.createInvokerForRemote(ReferenceConfig.java:605)
+	at org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:439)
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:297)
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:231)
+	at org.apache.dubbo.config.utils.SimpleReferenceCache.get(SimpleReferenceCache.java:131)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.lambda$referServices$6(DefaultModuleDeployer.java:396)
+	at java.base/java.util.concurrent.ConcurrentHashMap$ValuesView.forEach(ConcurrentHashMap.java:4780)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.referServices(DefaultModuleDeployer.java:376)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:167)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:139)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:113)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:102)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.api.ApiWebApplication.main(ApiWebApplication.java:20)
+Caused by: org.apache.dubbo.remoting.RemotingException: client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:224)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:171)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:219)
+	at org.apache.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:77)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.<init>(NettyClient.java:94)
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.connect(NettyTransporter.java:40)
+	at org.apache.dubbo.remoting.Transporter$Adaptive.connect(Transporter$Adaptive.java)
+	at org.apache.dubbo.remoting.Transporters.connect(Transporters.java:74)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:42)
+	at org.apache.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:107)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:611)
+	... 61 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:49:58.458 - INFO] org.apache.dubbo.rpc.model.ModuleModel   : [DUBBO] Dynamically registering consumer model liyu-live-user-provider/org.apache.dubbo.metadata.MetadataService:1.0.0 into model Dubbo Module[1.1.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:00.511 -ERROR] o.a.d.r.transport.netty4.NettyClient     : [DUBBO] Failed to connect to provider server by other reason., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 6-1. This may be caused by network disconnected, go to https://dubbo.apache.org/faq/6/1 to find instructions. 
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:50:00.511 -ERROR] o.a.d.r.client.metadata.MetadataUtils    : [DUBBO] Failed to get app metadata for revision ab1821c8df99581bcc322aa8dd4192ac for type local from instance 10.96.54.43:9091, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-39. This may be caused by , go to https://dubbo.apache.org/faq/1/39 to find instructions. 
+org.apache.dubbo.rpc.RpcException: Fail to create remoting client for service(dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0): client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:613)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:437)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.protocolBindingRefer(DubboProtocol.java:410)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:401)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:77)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:74)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.referProxy(MetadataUtils.java:144)
+	at org.apache.dubbo.registry.client.metadata.MetadataUtils.getRemoteMetadata(MetadataUtils.java:172)
+	at org.apache.dubbo.registry.client.AbstractServiceDiscovery.getRemoteMetadata(AbstractServiceDiscovery.java:180)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.lambda$doOnEvent$2(ServiceInstancesChangedListener.java:159)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.doOnEvent(ServiceInstancesChangedListener.java:159)
+	at org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.onEvent(ServiceInstancesChangedListener.java:113)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribeURLs(ServiceDiscoveryRegistry.java:320)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.doSubscribe(ServiceDiscoveryRegistry.java:224)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribe(ServiceDiscoveryRegistry.java:185)
+	at org.apache.dubbo.registry.ListenerRegistryWrapper.subscribe(ListenerRegistryWrapper.java:88)
+	at org.apache.dubbo.registry.integration.DynamicDirectory.subscribe(DynamicDirectory.java:183)
+	at org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.subscribe(ServiceDiscoveryRegistryDirectory.java:127)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doCreateInvoker(RegistryProtocol.java:570)
+	at org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol.getServiceDiscoveryInvoker(InterfaceCompatibleRegistryProtocol.java:65)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.refreshServiceDiscoveryInvoker(MigrationInvoker.java:437)
+	at org.apache.dubbo.registry.client.migration.MigrationInvoker.migrateToApplicationFirstInvoker(MigrationInvoker.java:245)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.refreshInvoker(MigrationRuleHandler.java:76)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleHandler.doMigrate(MigrationRuleHandler.java:60)
+	at org.apache.dubbo.registry.client.migration.MigrationRuleListener.onRefer(MigrationRuleListener.java:247)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.interceptInvoker(RegistryProtocol.java:535)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.doRefer(RegistryProtocol.java:505)
+	at org.apache.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:487)
+	at org.apache.dubbo.qos.protocol.QosProtocolWrapper.refer(QosProtocolWrapper.java:85)
+	at org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:74)
+	at org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:71)
+	at org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper.refer(ProtocolSerializationWrapper.java:52)
+	at org.apache.dubbo.rpc.Protocol$Adaptive.refer(Protocol$Adaptive.java)
+	at org.apache.dubbo.config.ReferenceConfig.createInvokerForRemote(ReferenceConfig.java:605)
+	at org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:439)
+	at org.apache.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:297)
+	at org.apache.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:231)
+	at org.apache.dubbo.config.utils.SimpleReferenceCache.get(SimpleReferenceCache.java:131)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.lambda$referServices$6(DefaultModuleDeployer.java:396)
+	at java.base/java.util.concurrent.ConcurrentHashMap$ValuesView.forEach(ConcurrentHashMap.java:4780)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.referServices(DefaultModuleDeployer.java:376)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.startSync(DefaultModuleDeployer.java:167)
+	at org.apache.dubbo.config.deploy.DefaultModuleDeployer.start(DefaultModuleDeployer.java:139)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onContextRefreshedEvent(DubboDeployApplicationListener.java:113)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:102)
+	at org.apache.dubbo.config.spring.context.DubboDeployApplicationListener.onApplicationEvent(DubboDeployApplicationListener.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.liyu.live.api.ApiWebApplication.main(ApiWebApplication.java:20)
+Caused by: org.apache.dubbo.remoting.RemotingException: client(url: dubbo://10.96.54.43:9091/org.apache.dubbo.metadata.MetadataService?codec=dubbo&connections=1&corethreads=2&dubbo=2.0.2&group=liyu-live-user-provider&heartbeat=60000&port=9091&prefer.serialization=fastjson2,hessian2&protocol=dubbo&release=3.2.0-beta.3&retries=0&side=provider&threadpool=cached&threads=100&timeout=5000&version=1.0.0) failed to connect to server /10.96.54.43:9091, error message is:Connection refused: no further information: /10.96.54.43:9091
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:224)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:171)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:219)
+	at org.apache.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:77)
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.<init>(NettyClient.java:94)
+	at org.apache.dubbo.remoting.transport.netty4.NettyTransporter.connect(NettyTransporter.java:40)
+	at org.apache.dubbo.remoting.Transporter$Adaptive.connect(Transporter$Adaptive.java)
+	at org.apache.dubbo.remoting.Transporters.connect(Transporters.java:74)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:42)
+	at org.apache.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:107)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:611)
+	... 61 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /10.96.54.43:9091
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[2024-03-08 21:50:01.527 -ERROR] o.a.d.r.client.AbstractServiceDiscovery  : [DUBBO] Failed to get metadata for revision after 3 retries, revision=ab1821c8df99581bcc322aa8dd4192ac, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-39. This may be caused by , go to https://dubbo.apache.org/faq/1/39 to find instructions. 
+[2024-03-08 21:50:01.527 -ERROR] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] 1/1 revisions failed to get metadata from remote: ab1821c8df99581bcc322aa8dd4192ac , dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-36. This may be caused by , go to https://dubbo.apache.org/faq/1/36 to find instructions. 
+[2024-03-08 21:50:01.528 - WARN] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Address refresh try task submitted, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-36. This may be caused by , go to https://dubbo.apache.org/faq/1/36 to find instructions. 
+[2024-03-08 21:50:01.528 -ERROR] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Address refresh failed because of Metadata Server failure, wait for retry or new address refresh event., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-17. This may be caused by metadata Server failure, go to https://dubbo.apache.org/faq/1/17 to find instructions. 
+[2024-03-08 21:50:01.530 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:liyu-live-user-provider, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:50:01.535 - INFO] com.alibaba.nacos.client.naming          :new ips(1) service: DEFAULT_GROUP@@liyu-live-user-provider -> [{"ip":"10.96.54.43","port":9090,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@liyu-live-user-provider","metadata":{"dubbo.metadata-service.url-params":"{\"prefer.serialization\":\"fastjson2,hessian2\",\"version\":\"1.0.0\",\"dubbo\":\"2.0.2\",\"release\":\"3.2.0-beta.3\",\"side\":\"provider\",\"port\":\"9090\",\"protocol\":\"dubbo\"}","dubbo.endpoints":"[{\"port\":9090,\"protocol\":\"dubbo\"}]","dubbo.metadata.revision":"81fd86ccfab3d15fc63c9865bffafe58","dubbo.metadata.storage-type":"local","timestamp":"1709905769847"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+[2024-03-08 21:50:01.535 - INFO] com.alibaba.nacos.client.naming          :removed ips(1) service: DEFAULT_GROUP@@liyu-live-user-provider -> [{"ip":"10.96.54.43","port":9091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@liyu-live-user-provider","metadata":{"dubbo.metadata-service.url-params":"{\"prefer.serialization\":\"fastjson2,hessian2\",\"version\":\"1.0.0\",\"dubbo\":\"2.0.2\",\"release\":\"3.2.0-beta.3\",\"side\":\"provider\",\"port\":\"9091\",\"protocol\":\"dubbo\"}","dubbo.endpoints":"[{\"port\":9091,\"protocol\":\"dubbo\"}]","dubbo.metadata.revision":"ab1821c8df99581bcc322aa8dd4192ac","dubbo.metadata.storage-type":"local","timestamp":"1709357628396"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+[2024-03-08 21:50:01.535 - INFO] com.alibaba.nacos.client.naming          :current ips:(1) service: DEFAULT_GROUP@@liyu-live-user-provider -> [{"ip":"10.96.54.43","port":9090,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@liyu-live-user-provider","metadata":{"dubbo.metadata-service.url-params":"{\"prefer.serialization\":\"fastjson2,hessian2\",\"version\":\"1.0.0\",\"dubbo\":\"2.0.2\",\"release\":\"3.2.0-beta.3\",\"side\":\"provider\",\"port\":\"9090\",\"protocol\":\"dubbo\"}","dubbo.endpoints":"[{\"port\":9090,\"protocol\":\"dubbo\"}]","dubbo.metadata.revision":"81fd86ccfab3d15fc63c9865bffafe58","dubbo.metadata.storage-type":"local","timestamp":"1709905769847"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+[2024-03-08 21:50:01.537 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Received instance notification, serviceName: liyu-live-user-provider, instances: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.537 - INFO] org.apache.dubbo.rpc.model.ModuleModel   : [DUBBO] Dynamically registering consumer model liyu-live-user-provider/org.apache.dubbo.metadata.MetadataService:1.0.0 into model Dubbo Module[1.1.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.539 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59676 -> /10.96.54.43:9090 is established., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.539 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Successfully connect to server /10.96.54.43:9090 from NettyClient 10.96.54.43 using dubbo version 3.2.0-beta.3, channel is NettyChannel [channel=[id: 0x739e5b75, L:/10.96.54.43:59676 - R:/10.96.54.43:9090]], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.539 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Start NettyClient /10.96.54.43 connect to the server /10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.541 - INFO] .r.c.m.DefaultMigrationAddressComparator : [DUBBO] No instance address available, stop compare., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.541 - INFO] o.a.d.r.c.m.MigrationRuleHandler         : [DUBBO] Succeed Migrated to APPLICATION_FIRST mode. Service Name: org.liyu.live.user.interfaces.IUserRpc, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.542 - INFO] o.apache.dubbo.config.ReferenceConfig    : [DUBBO] Referred dubbo service: [org.liyu.live.user.interfaces.IUserRpc]. it's not GenericService reference, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.543 - INFO] o.a.d.m.store.nacos.NacosMetadataReport  : [DUBBO] store consumer metadata. Identifier : org.apache.dubbo.metadata.report.identifier.MetadataIdentifier@1fb7ab34; definition: org.apache.dubbo.common.url.component.URLParam$URLParamMap@26ad06f1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.552 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has started., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.552 - WARN] o.a.d.c.d.DefaultMetricsServiceExporter  : [DUBBO] The MetricsConfig not exist, will not export metrics service., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.558 - INFO] o.a.d.c.b.b.InternalServiceConfigBuilder : [DUBBO] org.apache.dubbo.metadata.MetadataServiceService Port hasn't been set will use default protocol defined in protocols., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.559 - INFO] o.a.d.c.b.b.InternalServiceConfigBuilder : [DUBBO] Using dubbo protocol to export org.apache.dubbo.metadata.MetadataService service on port -1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.600 - WARN] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+[2024-03-08 21:50:01.628 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.631 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to local registry url : injvm://127.0.0.1/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.632 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to url dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.633 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.641 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api.configurators+dubbo+liyu-live-test
+[2024-03-08 21:50:01.642 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api.configurators, group=dubbo, cnt=1
+[2024-03-08 21:50:01.679 - INFO] o.a.d.remoting.transport.AbstractServer  : [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.683 - INFO] o.a.d.r.c.m.MigrationRuleListener        : [DUBBO] Listening for migration rules on dataId liyu-live-api.migration, group DUBBO_SERVICEDISCOVERY_MIGRATION, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.689 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to url dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.712 - INFO] o.a.d.r.transport.netty4.NettyChannel    : [DUBBO] Close netty channel [id: 0x739e5b75, L:/10.96.54.43:59676 - R:/10.96.54.43:9090], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.713 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59676 -> /10.96.54.43:9090 is disconnected., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.714 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] 1 unique working revisions: 81fd86ccfab3d15fc63c9865bffafe58 , dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.717 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Notify service org.liyu.live.user.interfaces.IUserRpc:null with urls 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.732 - INFO] .d.r.c.ServiceDiscoveryRegistryDirectory : [DUBBO] Refreshed invoker size 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.780 - INFO] .r.c.m.DefaultMigrationAddressComparator : [DUBBO] serviceKey:org.liyu.live.user.interfaces.IUserRpc Instance address size 1, interface address size 1, threshold 0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.780 - INFO] .d.r.c.ServiceDiscoveryRegistryDirectory : [DUBBO] Received invokers changed event from registry. Registry type: instance. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.855 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Subscribe: provider://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&category=configurators&check=false&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.855 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:50:01.859 - INFO] com.alibaba.nacos.client.naming          :init new ips(0) service: DEFAULT_GROUP@@providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api -> []
+[2024-03-08 21:50:01.859 - INFO] com.alibaba.nacos.client.naming          :current ips:(0) service: DEFAULT_GROUP@@providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api -> []
+[2024-03-08 21:50:01.860 - WARN] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Received empty url address list and empty protection is disabled, will clear current available addresses, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-37. This may be caused by , go to https://dubbo.apache.org/faq/1/37 to find instructions. 
+[2024-03-08 21:50:01.860 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url provider://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&category=configurators&check=false&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.860 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:50:01.861 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Successfully registered interface application mapping for service liyu-live-api/org.apache.dubbo.metadata.MetadataService:1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.861 - INFO] .c.m.ConfigurableMetadataServiceExporter : [DUBBO] The MetadataService exports urls : [dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=3828&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709905801595&version=1.0.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.861 - INFO] o.a.d.r.c.m.ServiceInstanceMetadataUtils : [DUBBO] Start registering instance address to registry., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.868 - WARN] o.a.d.r.client.AbstractServiceDiscovery  : [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+[2024-03-08 21:50:01.869 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is ready., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:50:01.871 - INFO] org.liyu.live.api.ApiWebApplication      :Started ApiWebApplication in 15.498 seconds (process running for 16.185)
+[2024-03-08 21:50:01.880 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.yaml+DEFAULT_GROUP+liyu-live-test
+[2024-03-08 21:50:01.880 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.yaml, group=DEFAULT_GROUP, cnt=1
+[2024-03-08 21:50:01.880 - INFO] c.a.c.n.refresh.NacosContextRefresher    :[Nacos Config] Listening config: dataId=liyu-live-api.yaml, group=DEFAULT_GROUP
+[2024-03-08 21:50:01.880 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] null.yaml+DEFAULT_GROUP+liyu-live-test
+[2024-03-08 21:50:01.880 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=null.yaml, group=DEFAULT_GROUP, cnt=1
+[2024-03-08 21:50:01.880 - INFO] c.a.c.n.refresh.NacosContextRefresher    :[Nacos Config] Listening config: dataId=null.yaml, group=DEFAULT_GROUP
+[2024-03-08 21:50:02.117 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Receive server push request, request = NotifySubscriberRequest, requestId = 409
+[2024-03-08 21:50:02.118 - INFO] com.alibaba.nacos.common.remote.client   :[3ddd4529-b87e-44af-b0f5-d716066f0169] Ack server push request, request = NotifySubscriberRequest, requestId = 409
+[2024-03-08 21:50:02.438 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Receive server push request, request = NotifySubscriberRequest, requestId = 410
+[2024-03-08 21:50:02.439 - INFO] com.alibaba.nacos.common.remote.client   :[3162c238-a4de-4b6c-9a79-0012ec103472] Ack server push request, request = NotifySubscriberRequest, requestId = 410
+[2024-03-08 21:50:11.542 - WARN] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Received address refresh retry event, 1709905801528, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-36. This may be caused by , go to https://dubbo.apache.org/faq/1/36 to find instructions. 
+[2024-03-08 21:50:11.543 - WARN] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Ignore retry event, event time: 1709905801528, last refresh time: 1709905801537, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-36. This may be caused by , go to https://dubbo.apache.org/faq/1/36 to find instructions. 
+[2024-03-08 21:53:49.135 - WARN] c.a.nacos.common.notify.NotifyCenter     :[NotifyCenter] Start destroying Publisher
+[2024-03-08 21:53:49.136 - WARN] c.a.nacos.common.notify.NotifyCenter     :[NotifyCenter] Destruction of the end
+[2024-03-08 21:53:49.136 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Run shutdown hook now., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.136 - WARN] c.a.n.common.http.HttpClientBeanHolder   :[HttpClientBeanHolder] Start destroying common HttpClient
+[2024-03-08 21:53:49.136 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Waiting for modules managed by Spring to be shut down., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.136 - WARN] c.a.n.common.http.HttpClientBeanHolder   :[HttpClientBeanHolder] Destruction of the end
+[2024-03-08 21:53:49.137 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.140 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Unsubscribe: consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=3828&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709905791148&unloadClusterRelated=false, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.160 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Dubbo shuts down application after Spring fails to do in time or doesn't do it completely., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.160 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default application from Dubbo Application[1.1](liyu-live-api) to null, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.160 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is stopping., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.161 - INFO] o.a.d.rpc.protocol.dubbo.DubboProtocol   : [DUBBO] Destroying protocol [DubboProtocol] ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.161 - INFO] o.a.d.rpc.protocol.dubbo.DubboProtocol   : [DUBBO] Closing dubbo server: /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.162 - INFO] o.a.d.remoting.transport.AbstractServer  : [DUBBO] Close NettyServer bind /0.0.0.0:20880, export /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.192 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [remove-listener] ok, dataId=org.liyu.live.user.interfaces.IUserRpc, group=mapping, cnt=0
+[2024-03-08 21:53:49.197 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Destroying instance listener of  [liyu-live-user-provider], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.199 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [unsubscribe] org.liyu.live.user.interfaces.IUserRpc+mapping+liyu-live-test
+[2024-03-08 21:53:49.200 - INFO] o.a.d.r.transport.netty4.NettyChannel    : [DUBBO] Close netty channel [id: 0xebe54dfb, L:/10.96.54.43:59670 - R:/10.96.54.43:9090], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.201 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59670 -> /10.96.54.43:9090 is disconnected., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.207 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.208 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@6fc0bbc6, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:53:49.242 - INFO] c.a.c.n.registry.NacosServiceRegistry    :De-registering from Nacos Server now...
+[2024-03-08 21:53:49.242 - WARN] c.a.c.n.registry.NacosServiceRegistry    :No dom to de-register for nacos client...
+[2024-03-08 21:57:24.253 - INFO] d.s.b.c.e.WelcomeLogoApplicationListener : [DUBBO] 
+
+ :: Dubbo (v3.2.0-beta.3) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:24.255 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:57:24.256 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:57:24.361 - INFO] c.a.c.n.c.NacosConfigDataLoader          :[Nacos Config] Load config[dataId=liyu-live-api.yaml, group=DEFAULT_GROUP] success
+[2024-03-08 21:57:24.744 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:57:24.744 - WARN] c.a.nacos.client.logging.NacosLogging    :Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+[2024-03-08 21:57:24.763 - WARN] c.a.c.n.c.NacosPropertySourceBuilder     :Ignore the empty nacos configuration and get it based on dataId[null.yaml] & group[DEFAULT_GROUP]
+[2024-03-08 21:57:24.764 - INFO] b.c.PropertySourceBootstrapConfiguration :Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.yaml,DEFAULT_GROUP'}]
+[2024-03-08 21:57:24.769 - INFO] org.liyu.live.api.ApiWebApplication      :No active profile set, falling back to 1 default profile: "default"
+[2024-03-08 21:57:24.784 - INFO] c.a.c.n.c.NacosConfigDataLoader          :[Nacos Config] Load config[dataId=liyu-live-api.yaml, group=DEFAULT_GROUP] success
+[2024-03-08 21:57:25.131 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default framework from null to Dubbo Framework[1], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.132 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.145 -ERROR] o.a.d.c.r.GlobalResourcesRepository      : [DUBBO] Creating global shared handler ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.169 - INFO] o.a.dubbo.rpc.model.ApplicationModel     : [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.171 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.192 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.192 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.245 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default application from null to Dubbo Application[1.1](unknown), dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.246 - INFO] o.a.dubbo.rpc.model.ApplicationModel     : [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.246 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.252 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.253 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.263 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.264 - INFO] org.apache.dubbo.rpc.model.ScopeModel    : [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.268 - INFO] o.a.d.c.context.AbstractConfigManager    : [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.272 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.272 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@628b819d, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.456 - INFO] o.s.cloud.context.scope.GenericScope     :BeanFactory id=b6404d2d-cdcd-36d1-b606-1ed157c4d135
+[2024-03-08 21:57:25.486 - INFO] f.a.ReferenceAnnotationBeanPostProcessor : [DUBBO] Register dubbo reference bean: userRpc = ReferenceBean:org.liyu.live.user.interfaces.IUserRpc() at private org.liyu.live.user.interfaces.IUserRpc org.liyu.live.api.controller.UserController.userRpc, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.623 - INFO] f.a.ReferenceAnnotationBeanPostProcessor : [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.837 - INFO] o.s.b.w.embedded.tomcat.TomcatWebServer  :Tomcat initialized with port(s): 8080 (http)
+[2024-03-08 21:57:25.847 - INFO] o.a.coyote.http11.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8080"]
+[2024-03-08 21:57:25.848 - INFO] o.apache.catalina.core.StandardService   :Starting service [Tomcat]
+[2024-03-08 21:57:25.848 - INFO] o.apache.catalina.core.StandardEngine    :Starting Servlet engine: [Apache Tomcat/10.1.5]
+[2024-03-08 21:57:25.911 - INFO] o.a.c.c.C.[.[localhost].[/live/api]      :Initializing Spring embedded WebApplicationContext
+[2024-03-08 21:57:25.911 - INFO] w.s.c.ServletWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1127 ms
+[2024-03-08 21:57:25.978 - INFO] o.a.d.c.s.c.DubboConfigBeanInitializer   : [DUBBO] loading dubbo config beans ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:25.980 - INFO] o.a.d.c.s.c.DubboConfigBeanInitializer   : [DUBBO] dubbo config beans are loaded., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.030 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] No value is configured in the registry, the DynamicConfigurationFactory extension[name : nacos] supports as the config center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.031 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] The registry[<dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />] will be used as the config center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.036 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] use registry as config-center: <dubbo:config-center highestPriority="false" id="config-center-nacos-192.168.222.1-8848" address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="{namespace=liyu-live-test, client=null, password=liyu, username=liyu}" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.047 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:57:26.049 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:57:26.049 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:57:26.116 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0
+[2024-03-08 21:57:26.117 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$344/0x000001a7582427c8
+[2024-03-08 21:57:26.117 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$345/0x000001a758242be8
+[2024-03-08 21:57:26.117 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+[2024-03-08 21:57:26.117 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+[2024-03-08 21:57:26.117 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:57:26.239 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709906246122_192.168.222.1_59897
+[2024-03-08 21:57:26.239 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:57:26.240 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001a758382968
+[2024-03-08 21:57:26.240 - INFO] com.alibaba.nacos.common.remote.client   :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Notify connected event to listeners.
+[2024-03-08 21:57:26.240 - INFO] c.a.n.client.config.impl.ClientWorker    :[40cb19ac-908e-40a9-bded-45f2a6cea0de_config-0] Connected,notify listen context...
+[2024-03-08 21:57:26.248 - WARN] o.a.d.common.config.ConfigurationUtils   : [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+[2024-03-08 21:57:26.248 - WARN] o.a.d.common.config.ConfigurationUtils   : [DUBBO] Config center was specified, but no config item found., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 0-12. This may be caused by , go to https://dubbo.apache.org/faq/0/12 to find instructions. 
+[2024-03-08 21:57:26.262 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.263 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:application enableFileCache="true" executorManagementMode="default" parameters="{}" name="liyu-live-api" qosEnable="false" protocol="dubbo" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.263 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:protocol preferSerialization="fastjson2,hessian2" name="dubbo" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.263 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.264 - INFO] o.a.dubbo.config.context.ConfigManager   : [DUBBO] <dubbo:ssl />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.289 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.293 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.303 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : nacos] supports as the metadata center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.304 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] The registry[<dubbo:registry address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="org.apache.dubbo.common.url.component.URLParam$URLParamMap@6105a67f" />] will be used as the metadata center, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.306 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] use registry as metadata-center: <dubbo:metadata-report address="nacos://192.168.222.1:8848?namespace=liyu-live-test&&username=liyu&&password=liyu" protocol="nacos" port="8848" parameters="{password=liyu, namespace=liyu-live-test, client=null, username=liyu}" />, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.386 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:57:26.387 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:57:26.387 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:57:26.452 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) has been initialized!, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.519 - INFO] o.a.d.c.s.reference.ReferenceCreator     : [DUBBO] The configBean[type:ReferenceConfig<org.liyu.live.user.interfaces.IUserRpc>] has been built., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:26.966 - INFO] o.a.coyote.http11.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8080"]
+[2024-03-08 21:57:26.977 - INFO] o.s.b.w.embedded.tomcat.TomcatWebServer  :Tomcat started on port(s): 8080 (http) with context path '/live/api'
+[2024-03-08 21:57:26.979 - WARN] c.a.c.n.registry.NacosServiceRegistry    :No service to register for nacos client...
+[2024-03-08 21:57:27.063 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.063 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.064 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] is starting., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.064 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.0] has started., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.089 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.108 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:57:27.109 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property : null
+[2024-03-08 21:57:27.109 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Environment :null
+[2024-03-08 21:57:27.109 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property :liyu-live-test
+[2024-03-08 21:57:27.133 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:57:27.133 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:57:27.200 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 616b68d8-3556-40b3-8161-54f654f73b56
+[2024-03-08 21:57:27.203 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+[2024-03-08 21:57:27.203 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+[2024-03-08 21:57:27.203 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+[2024-03-08 21:57:27.204 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:57:27.318 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709906247209_192.168.222.1_59898
+[2024-03-08 21:57:27.318 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:57:27.318 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001a758382968
+[2024-03-08 21:57:27.318 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Notify connected event to listeners.
+[2024-03-08 21:57:27.318 - INFO] com.alibaba.nacos.client.naming          :Grpc connection connect
+[2024-03-08 21:57:27.324 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Loaded registry cache file C:\Users\Fu\.dubbo\dubbo-registry-liyu-live-api-192.168.222.1-8848.cache, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.338 - INFO] o.a.d.r.c.m.MigrationRuleListener        : [DUBBO] Listening for migration rules on dataId liyu-live-api.migration, group DUBBO_SERVICEDISCOVERY_MIGRATION, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.341 - INFO] c.a.nacos.client.config.impl.CacheData   :nacos.cache.data.init.snapshot = true 
+[2024-03-08 21:57:27.341 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.migration+DUBBO_SERVICEDISCOVERY_MIGRATION+liyu-live-test
+[2024-03-08 21:57:27.347 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+[2024-03-08 21:57:27.386 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.configurators+dubbo+liyu-live-test
+[2024-03-08 21:57:27.386 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.configurators, group=dubbo, cnt=1
+[2024-03-08 21:57:27.391 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Please set 'dubbo.registry.parameters.register-consumer-url=true' to turn on consumer url registration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.404 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc::.condition-router+dubbo+liyu-live-test
+[2024-03-08 21:57:27.404 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc::.condition-router, group=dubbo, cnt=1
+[2024-03-08 21:57:27.409 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.condition-router+dubbo+liyu-live-test
+[2024-03-08 21:57:27.409 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.condition-router, group=dubbo, cnt=1
+[2024-03-08 21:57:27.417 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Subscribe: consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=21440&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709906247075&unloadClusterRelated=false, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.420 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc::, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:27.432 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=21440&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709906247075&unloadClusterRelated=false, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.441 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.810 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59899 -> /10.96.54.43:9090 is established., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.813 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Successfully connect to server /10.96.54.43:9090 from NettyClient 10.96.54.43 using dubbo version 3.2.0-beta.3, channel is NettyChannel [channel=[id: 0xb9d35c98, L:/10.96.54.43:59899 - R:/10.96.54.43:9090]], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.813 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Start NettyClient /10.96.54.43 connect to the server /10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.840 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-user-provider.MESHAPPRULE+dubbo+liyu-live-test
+[2024-03-08 21:57:27.840 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-user-provider.MESHAPPRULE, group=dubbo, cnt=1
+[2024-03-08 21:57:27.841 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-user-provider.tag-router+dubbo+liyu-live-test
+[2024-03-08 21:57:27.841 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-user-provider.tag-router, group=dubbo, cnt=1
+[2024-03-08 21:57:27.852 - INFO] o.a.d.r.integration.RegistryDirectory    : [DUBBO] Received invokers changed event from registry. Registry type: interface. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.853 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:27.857 - INFO] com.alibaba.nacos.client.naming          :init new ips(0) service: DEFAULT_GROUP@@providers:org.liyu.live.user.interfaces.IUserRpc -> []
+[2024-03-08 21:57:27.857 - INFO] com.alibaba.nacos.client.naming          :current ips:(0) service: DEFAULT_GROUP@@providers:org.liyu.live.user.interfaces.IUserRpc -> []
+[2024-03-08 21:57:27.858 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=21440&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709906247075&unloadClusterRelated=false, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.866 - INFO] o.a.d.r.integration.RegistryDirectory    : [DUBBO] Received invokers changed event from registry. Registry type: interface. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.868 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc::, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:27.869 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.liyu.live.user.interfaces.IUserRpc, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:27.870 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc::.configurators+dubbo+liyu-live-test
+[2024-03-08 21:57:27.870 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc::.configurators, group=dubbo, cnt=1
+[2024-03-08 21:57:27.895 - INFO] o.a.d.r.client.ServiceDiscoveryRegistry  : [DUBBO] Loaded registry cache file C:\Users\Fu\.dubbo\dubbo-registry-liyu-live-api-192.168.222.1-8848.cache, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.905 - INFO] o.a.d.r.c.m.store.MetaCacheManager       : [DUBBO] Successfully loaded meta cache from file .metadata.liyu-live-api.nacos.192.168.222.1:8848, entries 0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:27.906 - INFO] c.a.n.client.env.SearchableProperties    :properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+[2024-03-08 21:57:27.906 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property : null
+[2024-03-08 21:57:27.906 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Environment :null
+[2024-03-08 21:57:27.906 - INFO] com.alibaba.nacos.client.naming          :initializer namespace from System Property :liyu-live-test
+[2024-03-08 21:57:27.917 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+[2024-03-08 21:57:27.917 - INFO] c.a.n.p.a.s.c.ClientAuthPluginManager    :[ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+[2024-03-08 21:57:27.977 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Receive server push request, request = NotifySubscriberRequest, requestId = 415
+[2024-03-08 21:57:27.977 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Ack server push request, request = NotifySubscriberRequest, requestId = 415
+[2024-03-08 21:57:27.981 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 2e3c5032-37ae-423b-9a40-3a8967af4752
+[2024-03-08 21:57:27.981 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+[2024-03-08 21:57:27.981 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+[2024-03-08 21:57:27.981 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+[2024-03-08 21:57:27.982 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:57:28.105 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709906247986_192.168.222.1_59900
+[2024-03-08 21:57:28.105 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:57:28.106 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001a758382968
+[2024-03-08 21:57:28.106 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Notify connected event to listeners.
+[2024-03-08 21:57:28.106 - INFO] com.alibaba.nacos.client.naming          :Grpc connection connect
+[2024-03-08 21:57:28.111 - INFO] o.a.dubbo.metadata.MappingCacheManager   : [DUBBO] Successfully loaded mapping cache from file .mapping.liyu-live-api, entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.224 - INFO] o.a.d.r.client.ServiceDiscoveryRegistry  : [DUBBO] Trying to subscribe from apps liyu-live-user-provider for service key org.liyu.live.user.interfaces.IUserRpc, , dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.229 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.liyu.live.user.interfaces.IUserRpc+mapping+liyu-live-test
+[2024-03-08 21:57:28.230 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.liyu.live.user.interfaces.IUserRpc, group=mapping, cnt=1
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[RpcClientFactory] create a new rpc client of 2651e097-2189-4726-a886-39a652cbca9b_config-0
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$344/0x000001a7582427c8
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$345/0x000001a758242be8
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+[2024-03-08 21:57:28.230 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Received instance notification, serviceName: liyu-live-user-provider, instances: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.230 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Try to connect to server on start up, server: {serverIp = '192.168.222.1', server main port = 8848}
+[2024-03-08 21:57:28.237 - INFO] org.apache.dubbo.rpc.model.ModuleModel   : [DUBBO] Dynamically registering consumer model liyu-live-user-provider/org.apache.dubbo.metadata.MetadataService:1.0.0 into model Dubbo Module[1.1.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.240 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59903 -> /10.96.54.43:9090 is established., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.240 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Successfully connect to server /10.96.54.43:9090 from NettyClient 10.96.54.43 using dubbo version 3.2.0-beta.3, channel is NettyChannel [channel=[id: 0x48b78fe9, L:/10.96.54.43:59903 - R:/10.96.54.43:9090]], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.240 - INFO] o.a.d.remoting.transport.AbstractClient  : [DUBBO] Start NettyClient /10.96.54.43 connect to the server /10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.323 - INFO] o.a.d.r.transport.netty4.NettyChannel    : [DUBBO] Close netty channel [id: 0x48b78fe9, L:/10.96.54.43:59903 - R:/10.96.54.43:9090], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.324 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] 1 unique working revisions: 81fd86ccfab3d15fc63c9865bffafe58 , dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.324 - INFO] o.a.d.r.t.netty4.NettyClientHandler      : [DUBBO] The connection of /10.96.54.43:59903 -> /10.96.54.43:9090 is disconnected., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.327 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Notify serviceKey: org.liyu.live.user.interfaces.IUserRpc:null, listener: org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory@236f3885 with 1 urls on subscription, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.339 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Success to connect to server [192.168.222.1:8848] on start up, connectionId = 1709906248234_192.168.222.1_59902
+[2024-03-08 21:57:28.339 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+[2024-03-08 21:57:28.339 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$363/0x000001a758382968
+[2024-03-08 21:57:28.339 - INFO] com.alibaba.nacos.common.remote.client   :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Notify connected event to listeners.
+[2024-03-08 21:57:28.339 - INFO] c.a.n.client.config.impl.ClientWorker    :[2651e097-2189-4726-a886-39a652cbca9b_config-0] Connected,notify listen context...
+[2024-03-08 21:57:28.341 - INFO] .d.r.c.ServiceDiscoveryRegistryDirectory : [DUBBO] Refreshed invoker size 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.347 - INFO] DiscoveryRegistry$DefaultMappingListener : [DUBBO] Received mapping notification from meta server, {serviceKey: org.liyu.live.user.interfaces.IUserRpc, apps: [liyu-live-user-provider]}, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.348 - INFO] .d.r.c.ServiceDiscoveryRegistryDirectory : [DUBBO] Received invokers changed event from registry. Registry type: instance. Service Key: org.liyu.live.user.interfaces.IUserRpc. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 10.96.54.43:9090, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.348 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:liyu-live-user-provider, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:28.362 - INFO] .r.c.m.DefaultMigrationAddressComparator : [DUBBO] serviceKey:org.liyu.live.user.interfaces.IUserRpc Instance address size 1, interface address size 1, threshold 0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.362 - INFO] o.a.d.r.c.m.MigrationRuleHandler         : [DUBBO] Succeed Migrated to APPLICATION_FIRST mode. Service Name: org.liyu.live.user.interfaces.IUserRpc, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.362 - INFO] o.apache.dubbo.config.ReferenceConfig    : [DUBBO] Referred dubbo service: [org.liyu.live.user.interfaces.IUserRpc]. it's not GenericService reference, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.365 - INFO] o.a.d.m.store.nacos.NacosMetadataReport  : [DUBBO] store consumer metadata. Identifier : org.apache.dubbo.metadata.report.identifier.MetadataIdentifier@1230f249; definition: org.apache.dubbo.common.url.component.URLParam$URLParamMap@f37ba46e, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.370 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has started., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.370 - WARN] o.a.d.c.d.DefaultMetricsServiceExporter  : [DUBBO] The MetricsConfig not exist, will not export metrics service., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.374 - INFO] o.a.d.c.b.b.InternalServiceConfigBuilder : [DUBBO] org.apache.dubbo.metadata.MetadataServiceService Port hasn't been set will use default protocol defined in protocols., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.375 - INFO] o.a.d.c.b.b.InternalServiceConfigBuilder : [DUBBO] Using dubbo protocol to export org.apache.dubbo.metadata.MetadataService service on port -1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.400 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Receive server push request, request = NotifySubscriberRequest, requestId = 416
+[2024-03-08 21:57:28.400 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Ack server push request, request = NotifySubscriberRequest, requestId = 416
+[2024-03-08 21:57:28.408 - WARN] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Use random available port(20880) for protocol dubbo, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 5-8. This may be caused by , go to https://dubbo.apache.org/faq/5/8 to find instructions. 
+[2024-03-08 21:57:28.428 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.432 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to local registry url : injvm://127.0.0.1/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.432 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to url dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.433 - INFO] o.a.d.qos.protocol.QosProtocolWrapper    : [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.438 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api.configurators+dubbo+liyu-live-test
+[2024-03-08 21:57:28.438 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api.configurators, group=dubbo, cnt=1
+[2024-03-08 21:57:28.469 - INFO] o.a.d.remoting.transport.AbstractServer  : [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.472 - INFO] o.a.d.r.c.m.MigrationRuleListener        : [DUBBO] Listening for migration rules on dataId liyu-live-api.migration, group DUBBO_SERVICEDISCOVERY_MIGRATION, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.476 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Export dubbo service org.apache.dubbo.metadata.MetadataService to url dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.644 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Subscribe: provider://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&category=configurators&check=false&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.644 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:28.647 - INFO] com.alibaba.nacos.client.naming          :init new ips(0) service: DEFAULT_GROUP@@providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api -> []
+[2024-03-08 21:57:28.647 - INFO] com.alibaba.nacos.client.naming          :current ips:(0) service: DEFAULT_GROUP@@providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api -> []
+[2024-03-08 21:57:28.648 - WARN] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Received empty url address list and empty protection is disabled, will clear current available addresses, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-37. This may be caused by , go to https://dubbo.apache.org/faq/1/37 to find instructions. 
+[2024-03-08 21:57:28.648 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Notify urls for subscribe url provider://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&category=configurators&check=false&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0, url size: 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.648 - INFO] com.alibaba.nacos.client.naming          :[SUBSCRIBE-SERVICE] service:providers:org.apache.dubbo.metadata.MetadataService:1.0.0:liyu-live-api, group:DEFAULT_GROUP, clusters: 
+[2024-03-08 21:57:28.649 - INFO] org.apache.dubbo.config.ServiceConfig    : [DUBBO] Successfully registered interface application mapping for service liyu-live-api/org.apache.dubbo.metadata.MetadataService:1.0.0, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.649 - INFO] .c.m.ConfigurableMetadataServiceExporter : [DUBBO] The MetadataService exports urls : [dubbo://10.96.54.43:20880/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=liyu-live-api&background=false&bind.ip=10.96.54.43&bind.port=20880&corethreads=2&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executes=100&executor-management-mode=default&file.cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=liyu-live-api&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,toSortedStrings,version&pid=21440&prefer.serialization=fastjson2,hessian2&qos.enable=false&register=false&release=3.2.0-beta.3&revision=3.2.0-beta.3&service-name-mapping=true&side=provider&threadpool=cached&threads=100&timestamp=1709906248405&version=1.0.0], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.650 - INFO] o.a.d.r.c.m.ServiceInstanceMetadataUtils : [DUBBO] Start registering instance address to registry., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.654 - WARN] o.a.d.r.client.AbstractServiceDiscovery  : [DUBBO] No valid instance found, stop registering instance address to registry., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43, error code: 1-12. This may be caused by , go to https://dubbo.apache.org/faq/1/12 to find instructions. 
+[2024-03-08 21:57:28.654 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is ready., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 21:57:28.656 - INFO] org.liyu.live.api.ApiWebApplication      :Started ApiWebApplication in 6.351 seconds (process running for 6.992)
+[2024-03-08 21:57:28.659 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] liyu-live-api.yaml+DEFAULT_GROUP+liyu-live-test
+[2024-03-08 21:57:28.659 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=liyu-live-api.yaml, group=DEFAULT_GROUP, cnt=1
+[2024-03-08 21:57:28.659 - INFO] c.a.c.n.refresh.NacosContextRefresher    :[Nacos Config] Listening config: dataId=liyu-live-api.yaml, group=DEFAULT_GROUP
+[2024-03-08 21:57:28.659 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [subscribe] null.yaml+DEFAULT_GROUP+liyu-live-test
+[2024-03-08 21:57:28.659 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [add-listener] ok, tenant=liyu-live-test, dataId=null.yaml, group=DEFAULT_GROUP, cnt=1
+[2024-03-08 21:57:28.659 - INFO] c.a.c.n.refresh.NacosContextRefresher    :[Nacos Config] Listening config: dataId=null.yaml, group=DEFAULT_GROUP
+[2024-03-08 21:57:28.940 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Receive server push request, request = NotifySubscriberRequest, requestId = 417
+[2024-03-08 21:57:28.941 - INFO] com.alibaba.nacos.common.remote.client   :[2e3c5032-37ae-423b-9a40-3a8967af4752] Ack server push request, request = NotifySubscriberRequest, requestId = 417
+[2024-03-08 21:57:29.157 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Receive server push request, request = NotifySubscriberRequest, requestId = 418
+[2024-03-08 21:57:29.157 - INFO] com.alibaba.nacos.common.remote.client   :[616b68d8-3556-40b3-8161-54f654f73b56] Ack server push request, request = NotifySubscriberRequest, requestId = 418
+[2024-03-08 21:57:35.095 - INFO] o.a.c.c.C.[.[localhost].[/live/api]      :Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-03-08 21:57:35.095 - INFO] o.s.web.servlet.DispatcherServlet        :Initializing Servlet 'dispatcherServlet'
+[2024-03-08 21:57:35.096 - INFO] o.s.web.servlet.DispatcherServlet        :Completed initialization in 1 ms
+[2024-03-08 22:07:27.926 - INFO] .m.AbstractCacheManager$CacheRefreshTask : [DUBBO] Dumping meta caches, latest entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 22:07:28.220 - INFO] .m.AbstractCacheManager$CacheRefreshTask : [DUBBO] Dumping mapping caches, latest entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 22:57:28.232 - INFO] .m.AbstractCacheManager$CacheRefreshTask : [DUBBO] Dumping mapping caches, latest entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:07:27.940 - INFO] .m.AbstractCacheManager$CacheRefreshTask : [DUBBO] Dumping meta caches, latest entries 1, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.428 - WARN] c.a.nacos.common.notify.NotifyCenter     :[NotifyCenter] Start destroying Publisher
+[2024-03-08 23:14:00.428 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Run shutdown hook now., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.428 - WARN] c.a.n.common.http.HttpClientBeanHolder   :[HttpClientBeanHolder] Start destroying common HttpClient
+[2024-03-08 23:14:00.429 - WARN] c.a.nacos.common.notify.NotifyCenter     :[NotifyCenter] Destruction of the end
+[2024-03-08 23:14:00.430 - WARN] c.a.n.common.http.HttpClientBeanHolder   :[HttpClientBeanHolder] Destruction of the end
+[2024-03-08 23:14:00.430 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Waiting for modules managed by Spring to be shut down., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.440 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.448 - INFO] o.apache.dubbo.config.DubboShutdownHook  : [DUBBO] Dubbo shuts down application after Spring fails to do in time or doesn't do it completely., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.448 - INFO] o.apache.dubbo.rpc.model.FrameworkModel  : [DUBBO] Reset global default application from Dubbo Application[1.1](liyu-live-api) to null, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.449 - INFO] o.a.d.c.d.DefaultApplicationDeployer     : [DUBBO] Dubbo Application[1.1](liyu-live-api) is stopping., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.451 - INFO] o.a.d.rpc.protocol.dubbo.DubboProtocol   : [DUBBO] Destroying protocol [DubboProtocol] ..., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.451 - INFO] o.a.d.rpc.protocol.dubbo.DubboProtocol   : [DUBBO] Closing dubbo server: /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.452 - INFO] o.a.dubbo.registry.nacos.NacosRegistry   : [DUBBO] Unsubscribe: consumer://10.96.54.43/org.liyu.live.user.interfaces.IUserRpc?application=liyu-live-api&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=default&file.cache=true&interface=org.liyu.live.user.interfaces.IUserRpc&methods=batchQueryUserInfo,getByUserId,insertOne,updateUserInfo&pid=21440&qos.enable=false&release=3.2.0-beta.3&side=consumer&sticky=false&timestamp=1709906247075&unloadClusterRelated=false, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.452 - INFO] o.a.d.remoting.transport.AbstractServer  : [DUBBO] Close NettyServer bind /0.0.0.0:20880, export /10.96.54.43:20880, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.481 - INFO] c.a.nacos.client.config.impl.CacheData   :[fixed-liyu-live-test-192.168.222.1_8848] [remove-listener] ok, dataId=org.liyu.live.user.interfaces.IUserRpc, group=mapping, cnt=0
+[2024-03-08 23:14:00.482 - INFO] .r.c.e.l.ServiceInstancesChangedListener : [DUBBO] Destroying instance listener of  [liyu-live-user-provider], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.485 - INFO] c.a.n.client.config.impl.ClientWorker    :[fixed-liyu-live-test-192.168.222.1_8848] [unsubscribe] org.liyu.live.user.interfaces.IUserRpc+mapping+liyu-live-test
+[2024-03-08 23:14:00.486 - INFO] o.a.d.r.transport.netty4.NettyChannel    : [DUBBO] Close netty channel [id: 0xb9d35c98, L:/10.96.54.43:59899 - R:/10.96.54.43:9090], dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.492 - INFO] o.a.d.c.deploy.DefaultModuleDeployer     : [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.493 - INFO] o.a.d.c.s.c.DubboSpringInitializer       : [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@628b819d, dubbo version: 3.2.0-beta.3, current host: 10.96.54.43
+[2024-03-08 23:14:00.551 - INFO] c.a.c.n.registry.NacosServiceRegistry    :De-registering from Nacos Server now...
+[2024-03-08 23:14:00.552 - WARN] c.a.c.n.registry.NacosServiceRegistry    :No dom to de-register for nacos client...

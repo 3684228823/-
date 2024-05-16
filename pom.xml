@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.idea</groupId>
+  <artifactId>liyu-live-app</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>liyu-live-app</name>
+
+  <modules>
+    <module>liyu-live-user-provider</module>
+    <module>liyu-live-api</module>
+    <module>liyu-live-user-interface</module>
+    <module>liyu-live-common-interface</module>
+    <module>liyu-live-framework</module>
+    <module>liyu-live-id-generate-interface</module>
+    <module>liyu-live-id-generate-provider</module>
+    <module>liyu-live-gateway</module>
+    <module>liyu-live-msg-provider</module>
+    <module>liyu-live-msg-interface</module>
+    <module>liyu-live-account-interface</module>
+    <module>liyu-live-account-provider</module>
+      <module>liyu-live-im-core-server</module>
+    <module>liyu-live-im-core-server-interfaces</module>
+    <module>liyu-live-im-interface</module>
+    <module>liyu-live-im-provider</module>
+      <module>liyu-live-im-router-interface</module>
+    <module>liyu-live-im-router-provider</module>
+      <module>liyu-live-living-provider</module>
+    <module>liyu-live-living-interface</module>
+      <module>liyu-live-gift-interface</module>
+    <module>liyu-live-gift-provider</module>
+      <module>liyu-live-bank-interface</module>
+    <module>liyu-live-bank-provider</module>
+    <module>liyu-live-bank-api</module>
+  </modules>
+
+  <properties>
+    <liyu-mysql.version>8.0.33</liyu-mysql.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <dubbo.version>3.2.0-beta.3</dubbo.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springboot.version>3.0.4</springboot.version>
+    <spring-cloud-boostrap.version>3.0.2</spring-cloud-boostrap.version>
+  </properties>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.0.4</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2022.0.0.0-RC1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>

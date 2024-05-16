@@ -1,0 +1,36 @@
+version: '3'
+services:
+  liyu-live-user-provider-docker-1:
+    container_name: liyu-live-user-provider-docker-1
+    image: 'registry.baidubce.com/liyu-live-test/liyu-live-user-provider-docker:1.0.5'
+    ports:
+      - "9091:9091"
+    volumes:
+      - /Project/liyu-live-app/tmp/logs/liyu-live-user-provider:/Project/liyu-live-app/tmp/logs/liyu-live-user-provider
+    environment:
+      - TZ=Asia/Shanghai
+      - DUBBO_IP_TO_REGISTRY=192.168.222.1
+      - DUBBO_PORT_TO_REGISTRY=9091
+      - DUBBO_PORT_TO_BIND=9091
+      - JAVA_OPTS=-XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -Xms512m -Xmx512m -Xmn128m -Xss256k
+    extra_hosts:
+      - 'window:192.168.222.1'
+      - 'linux:192.168.222.133'
+
+  liyu-live-user-provider-docker-2:
+    container_name: liyu-live-user-provider-docker-2
+    image: 'registry.baidubce.com/liyu-live-test/liyu-live-user-provider-docker:1.0.5'
+    ports:
+      - "9092:9092"
+    volumes:
+      - /tmp/logs/liyu-live-user-provider:/tmp/logs/liyu-live-user-provider
+    environment:
+      - TZ=Asia/Shanghai
+      - DUBBO_IP_TO_REGISTRY=192.168.222.1
+      - DUBBO_PORT_TO_REGISTRY=9092
+      - DUBBO_PORT_TO_BIND=9092
+      - JAVA_OPTS=-XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -Xms512m -Xmx512m -Xmn128m -Xss256k
+    extra_hosts:
+      - 'window:192.168.222.1'
+      - 'linux:192.168.222.133'
+

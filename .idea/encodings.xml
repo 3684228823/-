@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/iyu-live-gift-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-account-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-account-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-bank-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-bank-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-bank-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-common-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/liyu-live-framework-datasource-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/liyu-live-framework-mq-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/liyu-live-framework-redis-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/liyu-live-framework-web-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-gift-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-gift-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-id-generate-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-id-generate-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-core-server-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-core-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-router-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-im-router-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-living-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-living-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-msg-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-msg-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-interface/src/main/java/org/liyu/live/user/constants/UserTagsEnum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-interface/src/main/java/org/liyu/live/user/interfaces/IUserTagRpc.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-interface/src/main/java/org/liyu/live/user/utils/TagInfoUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java/org/liyu/live/user/provider/dao/mapper/IUserTagMapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java/org/liyu/live/user/provider/dao/po/UserTagPO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java/org/liyu/live/user/provider/rpc/UserTagRpcImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java/org/liyu/live/user/provider/service/IUserTagService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/java/org/liyu/live/user/provider/service/impl/UserTagServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liyu-live-user-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

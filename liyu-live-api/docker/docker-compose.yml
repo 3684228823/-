@@ -1,0 +1,30 @@
+version: '3'
+services:
+  liyu-live-api-docker-1:
+    container_name: liyu-live-api-docker-1
+    image: 'registry.baidubce.com/liyu-live-test/liyu-live-api-docker:1.0.4'
+    ports:
+      - "8081:8081"
+    volumes:
+      - /Project/liyu-live-app/tmp/logs/liyu-live-api:/Project/liyu-live-app/tmp/logs/liyu-live-api
+    environment:
+      - spring.cloud.nacos.discovery.ip=192.168.222.133
+      - TZ=Asia/Shanghai
+      - server.port=8081
+      - JAVA_OPTS=-DNACOS_USER=liyu -DNACOS_PWD=liyu -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -Xms512m -Xmx512m -Xmn128m -Xss256k
+    extra_hosts:
+      - 'window:192.168.222.1'
+  liyu-live-api-docker-2:
+    container_name: liyu-live-api-docker-2
+    image: 'registry.baidubce.com/liyu-live-test/liyu-live-api-docker:1.0.4'
+    ports:
+      - "8082:8082"
+    volumes:
+      - /Project/liyu-live-app/tmp/logs/liyu-live-api:/Project/liyu-live-app/tmp/logs/liyu-live-api
+    environment:
+      - spring.cloud.nacos.discovery.ip=192.168.222.133
+      - TZ=Asia/Shanghai
+      - server.port=8082
+      - JAVA_OPTS=-DNACOS_USER=liyu -DNACOS_PWD=liyu -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -Xms512m -Xmx512m -Xmn128m -Xss256k
+    extra_hosts:
+      - 'window:192.168.222.1'
